@@ -1,0 +1,35 @@
+
+@import "./variables";
+
+.text{
+  &-xs {
+    font-size: $f-xs;
+  }
+  &-sm {
+    font-size: $f-sm;
+  }
+  &-base {
+    font-size: $f-base;
+  }
+  &-lg {
+    font-size: $f-lg;
+  }
+  &-xl {
+    font-size: $f-xl;
+  }
+  &-2xl {
+    font-size: $f-2xl;
+  }
+  &-3xl {
+    font-size: $f-3xl;
+  }
+  &-4xl {
+    font-size: $f-4xl;
+  }
+  &-5xl {
+    font-size: $f-5xl;
+  }
+  &-6xl {
+    font-size: $f-6xl;
+  }
+}
