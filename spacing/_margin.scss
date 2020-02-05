@@ -1,0 +1,327 @@
+@import "./variables";
+
+
+//----------margin-------
+
+.m{
+  &-0{
+    margin: $space-0;
+  }
+  &-1{
+    margin: $space-1;
+  }
+  &-2{
+    margin: $space-2;
+  }
+  &-3{
+    margin: $space-3;
+  }
+  &-4{
+    margin: $space-4;
+  }
+  &-5{
+    margin: $space-5;
+  }
+  &-6{
+    margin: $space-6;
+  }
+  &-8{
+    margin: $space-8;
+  }
+  &-10{
+    margin: $space-10;
+  }
+  &-12{
+    margin: $space-12;
+  }
+  &-16{
+    margin: $space-16;
+  }
+
+  //-----------margin-top----------
+  &t{
+    &-0{
+      margin-top: $space-0;
+    }
+    &-1{
+      margin-top: $space-1;
+    }
+    &-2{
+      margin-top: $space-2;
+    }
+    &-3{
+      margin-top: $space-3;
+    }
+    &-4{
+      margin-top: $space-4;
+    }
+    &-5{
+      margin-top: $space-5;
+    }
+    &-6{
+      margin-top: $space-6;
+    }
+    &-8{
+      margin-top: $space-8;
+    }
+    &-10{
+      margin-top: $space-10;
+    }
+    &-12{
+      margin-top: $space-12;
+    }
+    &-16{
+      margin-top: $space-16;
+    }
+  }
+  //----------margin-left
+  &l{
+    &-0{
+      margin-left: $space-0;
+    }
+    &-1{
+      margin-left: $space-1;
+    }
+    &-2{
+      margin-left: $space-2;
+    }
+    &-3{
+      margin-left: $space-3;
+    }
+    &-4{
+      margin-left: $space-4;
+    }
+    &-5{
+      margin-left: $space-5;
+    }
+    &-6{
+      margin-left: $space-6;
+    }
+    &-8{
+      margin-left: $space-8;
+    }
+    &-10{
+      margin-left: $space-10;
+    }
+    &-12{
+      margin-left: $space-12;
+    }
+    &-16{
+      margin-left: $space-16;
+    }
+  }
+
+  //--------------margin-right
+  &r{
+    &-0{
+      margin-right: $space-0;
+    }
+    &-1{
+      margin-right: $space-1;
+    }
+    &-2{
+      margin-right: $space-2;
+    }
+    &-3{
+      margin-right: $space-3;
+    }
+    &-4{
+      margin-right: $space-4;
+    }
+    &-5{
+      margin-right: $space-5;
+    }
+    &-6{
+      margin-right: $space-6;
+    }
+    &-8{
+      margin-right: $space-8;
+    }
+    &-10{
+      margin-right: $space-10;
+    }
+    &-12{
+      margin-right: $space-12;
+    }
+    &-16{
+      margin-right: $space-16;
+    }
+  }
+
+  //-------------margin-bottom
+  &b{
+    &-0{
+      margin-bottom: $space-0;
+    }
+    &-1{
+      margin-bottom: $space-1;
+    }
+    &-2{
+      margin-bottom: $space-2;
+    }
+    &-3{
+      margin-bottom: $space-3;
+    }
+    &-4{
+      margin-bottom: $space-4;
+    }
+    &-5{
+      margin-bottom: $space-5;
+    }
+    &-6{
+      margin-bottom: $space-6;
+    }
+    &-8{
+      margin-bottom: $space-8;
+    }
+    &-10{
+      margin-bottom: $space-10;
+    }
+    &-12{
+      margin-bottom: $space-12;
+    }
+    &-16{
+      margin-bottom: $space-16;
+    }
+  }
+  //----------margin-y top-bottom
+
+  &y{
+    &-0{
+      margin: {
+        top: $space-0;
+        bottom: $space-0;
+      }
+    }
+    &-1{
+      margin{
+        top: $space-1;
+        bottom: $space-1;
+      }
+    }
+    &-2{
+      margin{
+        top: $space-2;
+        bottom: $space-2;
+      }
+    }
+    &-3{
+      margin{
+        top: $space-3;
+        bottom: $space-3;
+      }
+    }
+    &-4{
+      margin{
+        top: $space-4;
+        bottom: $space-4;
+      }
+    }
+    &-5{
+      margin{
+        top: $space-5;
+        bottom: $space-5;
+      }
+    }
+    &-6{
+      margin{
+        top: $space-6;
+        bottom: $space-6;
+      }
+    }
+    &-8{
+      margin{
+        top: $space-8;
+        bottom: $space-8;
+      }
+    }
+    &-10{
+      margin{
+        top: $space-10;
+        bottom: $space-10;
+      }
+    }
+    &-12{
+      margin{
+        top: $space-12;
+        bottom: $space-12;
+      }
+    }
+    &-16{
+      margin{
+        top: $space-12;
+        bottom: $space-12;
+      }
+    }
+  }
+
+  //----------margin-left-right
+  &x{
+    &-0{
+      margin: {
+        left: $space-0;
+        right: $space-0;
+      }
+    }
+    &-1{
+      margin{
+        left: $space-1;
+        right: $space-1;
+      }
+    }
+    &-2{
+      margin{
+        left: $space-2;
+        right: $space-2;
+      }
+    }
+    &-3{
+      margin{
+        left: $space-3;
+        right: $space-3;
+      }
+    }
+    &-4{
+      margin{
+        left: $space-4;
+        right: $space-4;
+      }
+    }
+    &-5{
+      margin{
+        left: $space-5;
+        right: $space-5;
+      }
+    }
+    &-6{
+      margin{
+        left: $space-6;
+        right: $space-6;
+      }
+    }
+    &-8{
+      margin{
+        left: $space-8;
+        right: $space-8;
+      }
+    }
+    &-10{
+      margin{
+        left: $space-10;
+        right: $space-10;
+      }
+    }
+    &-12{
+      margin{
+        left: $space-12;
+        right: $space-12;
+      }
+    }
+    &-16{
+      margin{
+        left: $space-12;
+        right: $space-12;
+      }
+    }
+  }
+}
